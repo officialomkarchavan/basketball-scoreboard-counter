@@ -34,8 +34,9 @@
     }
 
     @font-face {
-        src: url('cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf');
-        font-family: 'CursedTimer'; 
+        src: url('cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+        font-family: 'CursedTimer';
+        font-display: swap;
     }
 
     .container {
@@ -124,3 +125,21 @@
         background-color: #2E3A7B;
         cursor: pointer;
     }   
+
+    @media (max-height: 820px), (max-width: 920px) {
+        h1.title { font-size: 48px; margin-top: 10px; }
+        h3 { font-size: 36px; margin-top: 8px; }
+        input[type="text"] { font-size: 36px; width: 320px; }
+        .points-container { font-size: 40px; }
+        .points {
+            height: 160px;
+            width: 220px;
+            font-size: 96px;
+            padding: 22px 14px 14px 14px;
+            margin: 14px auto;
+            border-radius: 9px;
+        }
+        .point-buttons { font-size: 22px; padding: 12px 14px; margin: 10px 8px; }
+        .reset-container { margin: 14px 0; }
+        .reset-button { font-size: 20px; padding: 12px 32px; }
+    }

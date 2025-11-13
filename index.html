@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="title-container">
+            <h1 class="title">BASKETBALL SCORE COUNTER</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="points-container">
+                <input type="text" placeholder="HOME">
+                <p class="points" id="home-score">0</p>
+                <div class="point-buttons-container">
+                        <p class="point-buttons add1" onclick="addTeamA1()">+1</p>
+                        <p class="point-buttons add2" onclick="addTeamA2()">+2</p>
+                        <p class="point-buttons add3" onclick="addTeamA3()">+3</p>
+                </div>
+            </div>
+            
+            <div class="points-container">  
+                <input type="text" placeholder="GUEST">
+                <p class="points" id="guest-score">0</p>
+                <div class="point-buttons-container">
+                        <p class="point-buttons add1" onclick="addTeamB1()">+1</p>
+                        <p class="point-buttons add2" onclick="addTeamB2()">+2</p>
+                        <p class="point-buttons add3" onclick="addTeamB3()">+3</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="reset-container">
+            <button class="reset-button" onclick="resetScores()">RESET</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

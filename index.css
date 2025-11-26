@@ -11,15 +11,16 @@
 
     h1.title {
         font-family: Tahoma, sans-serif;
-        font-size: 64px;
+        font-size: 72px;
         font-weight: 800;
         color: #9CA3AF;
         margin-top: 30px;
+        letter-spacing: 2px;
     }
 
     input[type="text"] {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 48px;
+        font-size: 52px;
         font-weight: 800;
         color: #FFFFFF;
         background-color: transparent;
@@ -127,9 +128,9 @@
     }   
 
     @media (max-height: 820px), (max-width: 920px) {
-        h1.title { font-size: 48px; margin-top: 10px; }
-        h3 { font-size: 36px; margin-top: 8px; }
-        input[type="text"] { font-size: 36px; width: 320px; }
+        h1.title { font-size: 54px; margin-top: 10px; }
+        h3 { font-size: 40px; margin-top: 8px; }
+        input[type="text"] { font-size: 40px; width: 320px; }
         .points-container { font-size: 40px; }
         .points {
             height: 160px;
